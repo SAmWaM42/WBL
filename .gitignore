@@ -1,0 +1,6 @@
+.venv/
+const.php
+rockyou.txt
+rockyou.pkl
+*.pkl
+*.txt
