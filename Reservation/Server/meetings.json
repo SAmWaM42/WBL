@@ -1,0 +1,877 @@
+{
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users('demo-user')/events",
+  "value": [
+    {
+      "id": "fake-id-1",
+      "subject": "Meeting - Room 1",
+      "bodyPreview": "This is a test meeting for demo purposes.",
+      "importance": "normal",
+      "sensitivity": "normal",
+      "isAllDay": false,
+      "isCancelled": false,
+      "showAs": "busy",
+      "responseRequested": true,
+      "webLink": "https://outlook.office.com/calendar/item/fake-id-1",
+      "organizer": {
+        "emailAddress": {
+          "name": "Organizer 1",
+          "address": "organizer1@example.com"
+        }
+      },
+      "attendees": [
+        {
+          "type": "required",
+          "status": {
+            "response": "accepted",
+            "time": "2026-02-20T10:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Attendee 1",
+            "address": "attendee1@example.com"
+          }
+        }
+      ],
+      "start": {
+        "dateTime": "2026-03-01T09:00:00",
+        "timeZone": "Africa/Nairobi"
+      },
+      "end": {
+        "dateTime": "2026-03-01T10:00:00",
+        "timeZone": "Africa/Nairobi"
+      },
+      "location": {
+        "displayName": "Room 1",
+        "locationType": "conferenceRoom",
+        "uniqueIdType": "unknown"
+      },
+      "locations": [
+        {
+          "displayName": "Room 1",
+          "locationType": "conferenceRoom",
+          "uniqueIdType": "unknown"
+        }
+      ],
+      "recurrence": null,
+      "onlineMeeting": {
+        "joinUrl": "https://teams.microsoft.com/l/meetup-join/fake-url-1",
+        "conferenceId": "100000001"
+      },
+      "onlineMeetingProvider": "teamsForBusiness",
+      "createdDateTime": "2026-02-20T09:00:00Z",
+      "lastModifiedDateTime": "2026-02-20T10:00:00Z",
+      "type": "singleInstance",
+      "transactionId": "txn-1",
+      "categories": [
+        "Demo"
+      ],
+      "reminderMinutesBeforeStart": 15,
+      "isReminderOn": true,
+      "body": {
+        "contentType": "html",
+        "content": "<p>Test meeting body for demo.</p>"
+      }
+    },
+    {
+      "id": "fake-id-2",
+      "subject": "Meeting - Room 2",
+      "bodyPreview": "This is a test meeting for demo purposes.",
+      "importance": "normal",
+      "sensitivity": "normal",
+      "isAllDay": false,
+      "isCancelled": false,
+      "showAs": "busy",
+      "responseRequested": true,
+      "webLink": "https://outlook.office.com/calendar/item/fake-id-2",
+      "organizer": {
+        "emailAddress": {
+          "name": "Organizer 2",
+          "address": "organizer2@example.com"
+        }
+      },
+      "attendees": [
+        {
+          "type": "required",
+          "status": {
+            "response": "accepted",
+            "time": "2026-02-20T10:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Attendee 2",
+            "address": "attendee2@example.com"
+          }
+        }
+      ],
+      "start": {
+        "dateTime": "2026-03-01T11:00:00",
+        "timeZone": "Africa/Nairobi"
+      },
+      "end": {
+        "dateTime": "2026-03-01T12:00:00",
+        "timeZone": "Africa/Nairobi"
+      },
+      "location": {
+        "displayName": "Room 2",
+        "locationType": "conferenceRoom",
+        "uniqueIdType": "unknown"
+      },
+      "locations": [
+        {
+          "displayName": "Room 2",
+          "locationType": "conferenceRoom",
+          "uniqueIdType": "unknown"
+        }
+      ],
+      "recurrence": null,
+      "onlineMeeting": {
+        "joinUrl": "https://teams.microsoft.com/l/meetup-join/fake-url-2",
+        "conferenceId": "100000002"
+      },
+      "onlineMeetingProvider": "teamsForBusiness",
+      "createdDateTime": "2026-02-20T09:00:00Z",
+      "lastModifiedDateTime": "2026-02-20T10:00:00Z",
+      "type": "singleInstance",
+      "transactionId": "txn-2",
+      "categories": [
+        "Demo"
+      ],
+      "reminderMinutesBeforeStart": 15,
+      "isReminderOn": true,
+      "body": {
+        "contentType": "html",
+        "content": "<p>Test meeting body for demo.</p>"
+      }
+    },
+    {
+      "id": "fake-id-3",
+      "subject": "Meeting - Room 3",
+      "bodyPreview": "This is a test meeting for demo purposes.",
+      "importance": "normal",
+      "sensitivity": "normal",
+      "isAllDay": false,
+      "isCancelled": false,
+      "showAs": "busy",
+      "responseRequested": true,
+      "webLink": "https://outlook.office.com/calendar/item/fake-id-3",
+      "organizer": {
+        "emailAddress": {
+          "name": "Organizer 3",
+          "address": "organizer3@example.com"
+        }
+      },
+      "attendees": [
+        {
+          "type": "required",
+          "status": {
+            "response": "accepted",
+            "time": "2026-02-20T10:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Attendee 3",
+            "address": "attendee3@example.com"
+          }
+        }
+      ],
+      "start": {
+        "dateTime": "2026-03-01T13:00:00",
+        "timeZone": "Africa/Nairobi"
+      },
+      "end": {
+        "dateTime": "2026-03-01T14:00:00",
+        "timeZone": "Africa/Nairobi"
+      },
+      "location": {
+        "displayName": "Room 3",
+        "locationType": "conferenceRoom",
+        "uniqueIdType": "unknown"
+      },
+      "locations": [
+        {
+          "displayName": "Room 3",
+          "locationType": "conferenceRoom",
+          "uniqueIdType": "unknown"
+        }
+      ],
+      "recurrence": null,
+      "onlineMeeting": {
+        "joinUrl": "https://teams.microsoft.com/l/meetup-join/fake-url-3",
+        "conferenceId": "100000003"
+      },
+      "onlineMeetingProvider": "teamsForBusiness",
+      "createdDateTime": "2026-02-20T09:00:00Z",
+      "lastModifiedDateTime": "2026-02-20T10:00:00Z",
+      "type": "singleInstance",
+      "transactionId": "txn-3",
+      "categories": [
+        "Demo"
+      ],
+      "reminderMinutesBeforeStart": 15,
+      "isReminderOn": true,
+      "body": {
+        "contentType": "html",
+        "content": "<p>Test meeting body for demo.</p>"
+      }
+    },
+    {
+      "id": "fake-id-4",
+      "subject": "Meeting - Room 4",
+      "bodyPreview": "This is a test meeting for demo purposes.",
+      "importance": "normal",
+      "sensitivity": "normal",
+      "isAllDay": false,
+      "isCancelled": false,
+      "showAs": "busy",
+      "responseRequested": true,
+      "webLink": "https://outlook.office.com/calendar/item/fake-id-4",
+      "organizer": {
+        "emailAddress": {
+          "name": "Organizer 4",
+          "address": "organizer4@example.com"
+        }
+      },
+      "attendees": [
+        {
+          "type": "required",
+          "status": {
+            "response": "accepted",
+            "time": "2026-02-20T10:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Attendee 4",
+            "address": "attendee4@example.com"
+          }
+        }
+      ],
+      "start": {
+        "dateTime": "2026-03-01T15:00:00",
+        "timeZone": "Africa/Nairobi"
+      },
+      "end": {
+        "dateTime": "2026-03-01T16:00:00",
+        "timeZone": "Africa/Nairobi"
+      },
+      "location": {
+        "displayName": "Room 4",
+        "locationType": "conferenceRoom",
+        "uniqueIdType": "unknown"
+      },
+      "locations": [
+        {
+          "displayName": "Room 4",
+          "locationType": "conferenceRoom",
+          "uniqueIdType": "unknown"
+        }
+      ],
+      "recurrence": null,
+      "onlineMeeting": {
+        "joinUrl": "https://teams.microsoft.com/l/meetup-join/fake-url-4",
+        "conferenceId": "100000004"
+      },
+      "onlineMeetingProvider": "teamsForBusiness",
+      "createdDateTime": "2026-02-20T09:00:00Z",
+      "lastModifiedDateTime": "2026-02-20T10:00:00Z",
+      "type": "singleInstance",
+      "transactionId": "txn-4",
+      "categories": [
+        "Demo"
+      ],
+      "reminderMinutesBeforeStart": 15,
+      "isReminderOn": true,
+      "body": {
+        "contentType": "html",
+        "content": "<p>Test meeting body for demo.</p>"
+      }
+    },
+    {
+      "id": "fake-id-5",
+      "subject": "Meeting - Room 5",
+      "bodyPreview": "This is a test meeting for demo purposes.",
+      "importance": "normal",
+      "sensitivity": "normal",
+      "isAllDay": false,
+      "isCancelled": false,
+      "showAs": "busy",
+      "responseRequested": true,
+      "webLink": "https://outlook.office.com/calendar/item/fake-id-5",
+      "organizer": {
+        "emailAddress": {
+          "name": "Organizer 5",
+          "address": "organizer5@example.com"
+        }
+      },
+      "attendees": [
+        {
+          "type": "required",
+          "status": {
+            "response": "accepted",
+            "time": "2026-02-20T10:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Attendee 5",
+            "address": "attendee5@example.com"
+          }
+        }
+      ],
+      "start": {
+        "dateTime": "2026-03-01T17:00:00",
+        "timeZone": "Africa/Nairobi"
+      },
+      "end": {
+        "dateTime": "2026-03-01T18:00:00",
+        "timeZone": "Africa/Nairobi"
+      },
+      "location": {
+        "displayName": "Room 5",
+        "locationType": "conferenceRoom",
+        "uniqueIdType": "unknown"
+      },
+      "locations": [
+        {
+          "displayName": "Room 5",
+          "locationType": "conferenceRoom",
+          "uniqueIdType": "unknown"
+        }
+      ],
+      "recurrence": null,
+      "onlineMeeting": {
+        "joinUrl": "https://teams.microsoft.com/l/meetup-join/fake-url-5",
+        "conferenceId": "100000005"
+      },
+      "onlineMeetingProvider": "teamsForBusiness",
+      "createdDateTime": "2026-02-20T09:00:00Z",
+      "lastModifiedDateTime": "2026-02-20T10:00:00Z",
+      "type": "singleInstance",
+      "transactionId": "txn-5",
+      "categories": [
+        "Demo"
+      ],
+      "reminderMinutesBeforeStart": 15,
+      "isReminderOn": true,
+      "body": {
+        "contentType": "html",
+        "content": "<p>Test meeting body for demo.</p>"
+      }
+    },
+    {
+      "id": "fake-id-6",
+      "subject": "Meeting - Room 6",
+      "bodyPreview": "This is a test meeting for demo purposes.",
+      "importance": "normal",
+      "sensitivity": "normal",
+      "isAllDay": false,
+      "isCancelled": false,
+      "showAs": "busy",
+      "responseRequested": true,
+      "webLink": "https://outlook.office.com/calendar/item/fake-id-6",
+      "organizer": {
+        "emailAddress": {
+          "name": "Organizer 6",
+          "address": "organizer6@example.com"
+        }
+      },
+      "attendees": [
+        {
+          "type": "required",
+          "status": {
+            "response": "accepted",
+            "time": "2026-02-20T10:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Attendee 6",
+            "address": "attendee6@example.com"
+          }
+        }
+      ],
+      "start": {
+        "dateTime": "2026-03-01T19:00:00",
+        "timeZone": "Africa/Nairobi"
+      },
+      "end": {
+        "dateTime": "2026-03-01T20:00:00",
+        "timeZone": "Africa/Nairobi"
+      },
+      "location": {
+        "displayName": "Room6",
+        "locationType": "conferenceRoom",
+        "uniqueIdType": "unknown"
+      },
+      "locations": [
+        {
+          "displayName": "Room6",
+          "locationType": "conferenceRoom",
+          "uniqueIdType": "unknown"
+        }
+      ],
+      "recurrence": null,
+      "onlineMeeting": {
+        "joinUrl": "https://teams.microsoft.com/l/meetup-join/fake-url-6",
+        "conferenceId": "100000006"
+      },
+      "onlineMeetingProvider": "teamsForBusiness",
+      "createdDateTime": "2026-02-20T09:00:00Z",
+      "lastModifiedDateTime": "2026-02-20T10:00:00Z",
+      "type": "singleInstance",
+      "transactionId": "txn-6",
+      "categories": [
+        "Demo"
+      ],
+      "reminderMinutesBeforeStart": 15,
+      "isReminderOn": true,
+      "body": {
+        "contentType": "html",
+        "content": "<p>Test meeting body for demo.</p>"
+      }
+    },
+    {
+      "id": "fake-id-7",
+      "subject": "Meeting - Room 7",
+      "bodyPreview": "This is a test meeting for demo purposes.",
+      "importance": "normal",
+      "sensitivity": "normal",
+      "isAllDay": false,
+      "isCancelled": false,
+      "showAs": "busy",
+      "responseRequested": true,
+      "webLink": "https://outlook.office.com/calendar/item/fake-id-7",
+      "organizer": {
+        "emailAddress": {
+          "name": "Organizer 7",
+          "address": "organizer7@example.com"
+        }
+      },
+      "attendees": [
+        {
+          "type": "required",
+          "status": {
+            "response": "accepted",
+            "time": "2026-02-20T10:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Attendee 7",
+            "address": "attendee7@example.com"
+          }
+        }
+      ],
+      "start": {
+        "dateTime": "2026-03-01T21:00:00",
+        "timeZone": "Africa/Nairobi"
+      },
+      "end": {
+        "dateTime": "2026-03-01T22:00:00",
+        "timeZone": "Africa/Nairobi"
+      },
+      "location": {
+        "displayName": "Room 7",
+        "locationType": "conferenceRoom",
+        "uniqueIdType": "unknown"
+      },
+      "locations": [
+        {
+          "displayName": "Room 7",
+          "locationType": "conferenceRoom",
+          "uniqueIdType": "unknown"
+        }
+      ],
+      "recurrence": null,
+      "onlineMeeting": {
+        "joinUrl": "https://teams.microsoft.com/l/meetup-join/fake-url-7",
+        "conferenceId": "100000007"
+      },
+      "onlineMeetingProvider": "teamsForBusiness",
+      "createdDateTime": "2026-02-20T09:00:00Z",
+      "lastModifiedDateTime": "2026-02-20T10:00:00Z",
+      "type": "singleInstance",
+      "transactionId": "txn-7",
+      "categories": [
+        "Demo"
+      ],
+      "reminderMinutesBeforeStart": 15,
+      "isReminderOn": true,
+      "body": {
+        "contentType": "html",
+        "content": "<p>Test meeting body for demo.</p>"
+      }
+    },
+    {
+      "id": "fake-id-8",
+      "subject": "Meeting - Room 8",
+      "bodyPreview": "This is a test meeting for demo purposes.",
+      "importance": "normal",
+      "sensitivity": "normal",
+      "isAllDay": false,
+      "isCancelled": false,
+      "showAs": "busy",
+      "responseRequested": true,
+      "webLink": "https://outlook.office.com/calendar/item/fake-id-8",
+      "organizer": {
+        "emailAddress": {
+          "name": "Organizer 8",
+          "address": "organizer8@example.com"
+        }
+      },
+      "attendees": [
+        {
+          "type": "required",
+          "status": {
+            "response": "accepted",
+            "time": "2026-02-20T10:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Attendee 8",
+            "address": "attendee8@example.com"
+          }
+        }
+      ],
+      "start": {
+        "dateTime": "2026-03-01T23:00:00",
+        "timeZone": "Africa/Nairobi"
+      },
+      "end": {
+        "dateTime": "2026-03-02T00:00:00",
+        "timeZone": "Africa/Nairobi"
+      },
+      "location": {
+        "displayName": "Room 8",
+        "locationType": "conferenceRoom",
+        "uniqueIdType": "unknown"
+      },
+      "locations": [
+        {
+          "displayName": "Room 8",
+          "locationType": "conferenceRoom",
+          "uniqueIdType": "unknown"
+        }
+      ],
+      "recurrence": null,
+      "onlineMeeting": {
+        "joinUrl": "https://teams.microsoft.com/l/meetup-join/fake-url-8",
+        "conferenceId": "100000008"
+      },
+      "onlineMeetingProvider": "teamsForBusiness",
+      "createdDateTime": "2026-02-20T09:00:00Z",
+      "lastModifiedDateTime": "2026-02-20T10:00:00Z",
+      "type": "singleInstance",
+      "transactionId": "txn-8",
+      "categories": [
+        "Demo"
+      ],
+      "reminderMinutesBeforeStart": 15,
+      "isReminderOn": true,
+      "body": {
+        "contentType": "html",
+        "content": "<p>Test meeting body for demo.</p>"
+      }
+    },
+    {
+      "id": "fake-id-9",
+      "subject": "Meeting - Room 9",
+      "bodyPreview": "This is a test meeting for demo purposes.",
+      "importance": "normal",
+      "sensitivity": "normal",
+      "isAllDay": false,
+      "isCancelled": false,
+      "showAs": "busy",
+      "responseRequested": true,
+      "webLink": "https://outlook.office.com/calendar/item/fake-id-9",
+      "organizer": {
+        "emailAddress": {
+          "name": "Organizer 9",
+          "address": "organizer9@example.com"
+        }
+      },
+      "attendees": [
+        {
+          "type": "required",
+          "status": {
+            "response": "accepted",
+            "time": "2026-02-20T10:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Attendee 9",
+            "address": "attendee9@example.com"
+          }
+        }
+      ],
+      "start": {
+        "dateTime": "2026-03-02T01:00:00",
+        "timeZone": "Africa/Nairobi"
+      },
+      "end": {
+        "dateTime": "2026-03-02T02:00:00",
+        "timeZone": "Africa/Nairobi"
+      },
+      "location": {
+        "displayName": "Room 9",
+        "locationType": "conferenceRoom",
+        "uniqueIdType": "unknown"
+      },
+      "locations": [
+        {
+          "displayName": "Room 9",
+          "locationType": "conferenceRoom",
+          "uniqueIdType": "unknown"
+        }
+      ],
+      "recurrence": null,
+      "onlineMeeting": {
+        "joinUrl": "https://teams.microsoft.com/l/meetup-join/fake-url-9",
+        "conferenceId": "100000009"
+      },
+      "onlineMeetingProvider": "teamsForBusiness",
+      "createdDateTime": "2026-02-20T09:00:00Z",
+      "lastModifiedDateTime": "2026-02-20T10:00:00Z",
+      "type": "singleInstance",
+      "transactionId": "txn-9",
+      "categories": [
+        "Demo"
+      ],
+      "reminderMinutesBeforeStart": 15,
+      "isReminderOn": true,
+      "body": {
+        "contentType": "html",
+        "content": "<p>Test meeting body for demo.</p>"
+      }
+    },
+    {
+      "id": "fake-id-10",
+      "subject": "Meeting - Room 10",
+      "bodyPreview": "This is a test meeting for demo purposes.",
+      "importance": "normal",
+      "sensitivity": "normal",
+      "isAllDay": false,
+      "isCancelled": false,
+      "showAs": "busy",
+      "responseRequested": true,
+      "webLink": "https://outlook.office.com/calendar/item/fake-id-10",
+      "organizer": {
+        "emailAddress": {
+          "name": "Organizer 10",
+          "address": "organizer10@example.com"
+        }
+      },
+      "attendees": [
+        {
+          "type": "required",
+          "status": {
+            "response": "accepted",
+            "time": "2026-02-20T10:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Attendee 10",
+            "address": "attendee10@example.com"
+          }
+        }
+      ],
+      "start": {
+        "dateTime": "2026-03-02T03:00:00",
+        "timeZone": "Africa/Nairobi"
+      },
+      "end": {
+        "dateTime": "2026-03-02T04:00:00",
+        "timeZone": "Africa/Nairobi"
+      },
+      "location": {
+        "displayName": "Room 10",
+        "locationType": "conferenceRoom",
+        "uniqueIdType": "unknown"
+      },
+      "locations": [
+        {
+          "displayName": "Room 10",
+          "locationType": "conferenceRoom",
+          "uniqueIdType": "unknown"
+        }
+      ],
+      "recurrence": null,
+      "onlineMeeting": {
+        "joinUrl": "https://teams.microsoft.com/l/meetup-join/fake-url-10",
+        "conferenceId": "1000000010"
+      },
+      "onlineMeetingProvider": "teamsForBusiness",
+      "createdDateTime": "2026-02-20T09:00:00Z",
+      "lastModifiedDateTime": "2026-02-20T10:00:00Z",
+      "type": "singleInstance",
+      "transactionId": "txn-10",
+      "categories": [
+        "Demo"
+      ],
+      "reminderMinutesBeforeStart": 15,
+      "isReminderOn": true,
+      "body": {
+        "contentType": "html",
+        "content": "<p>Test meeting body for demo.</p>"
+      }
+    },
+    {
+      "id": "conflict-now-1",
+      "subject": "Immediate Test Meeting",
+      "bodyPreview": "This meeting conflicts with current time.",
+      "importance": "normal",
+      "sensitivity": "normal",
+      "isAllDay": false,
+      "isCancelled": false,
+      "showAs": "busy",
+      "responseRequested": true,
+      "webLink": "https://outlook.office.com/calendar/item/conflict-now-1",
+      "organizer": {
+        "emailAddress": {
+          "name": "Organizer Demo",
+          "address": "organizer@example.com"
+        }
+      },
+      "attendees": [
+        {
+          "type": "required",
+          "status": {
+            "response": "accepted",
+            "time": "2026-02-23T08:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Attendee One",
+            "address": "attendee1@example.com"
+          }
+        }
+      ],
+      "start": {
+        "dateTime": "2026-02-23T09:00:00",
+        "timeZone": "Africa/Nairobi"
+      },
+      "end": {
+        "dateTime": "2026-02-23T10:00:00",
+        "timeZone": "Africa/Nairobi"
+      },
+      "location": {
+        "displayName": "Room1",
+        "locationType": "default",
+        "uniqueIdType": "unknown"
+      },
+      "onlineMeeting": null,
+      "onlineMeetingProvider": null,
+      "createdDateTime": "2026-02-23T08:00:00Z",
+      "lastModifiedDateTime": "2026-02-23T08:00:00Z",
+      "type": "singleInstance",
+      "transactionId": "txn-conflict-1",
+      "categories": [],
+      "reminderMinutesBeforeStart": 15,
+      "isReminderOn": true,
+      "body": {
+        "contentType": "html",
+        "content": "<p>Test meeting overlapping current time</p>"
+      }
+    },
+    {
+      "id": "conflict-now-1",
+      "subject": "Immediate Test Meeting",
+      "bodyPreview": "This meeting conflicts with current time.",
+      "importance": "normal",
+      "sensitivity": "normal",
+      "isAllDay": false,
+      "isCancelled": false,
+      "showAs": "busy",
+      "responseRequested": true,
+      "webLink": "https://outlook.office.com/calendar/item/conflict-now-1",
+      "organizer": {
+        "emailAddress": {
+          "name": "Organizer Demo",
+          "address": "organizer@example.com"
+        }
+      },
+      "attendees": [
+        {
+          "type": "required",
+          "status": {
+            "response": "accepted",
+            "time": "2026-02-23T09:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Attendee One",
+            "address": "attendee1@example.com"
+          }
+        }
+      ],
+      "start": {
+        "dateTime": "2026-02-23T09:00:00",
+        "timeZone": "Africa/Nairobi"
+      },
+      "end": {
+        "dateTime": "2026-02-23T10:00:00",
+        "timeZone": "Africa/Nairobi"
+      },
+      "location": {
+        "displayName": "Room1",
+        "locationType": "default",
+        "uniqueIdType": "unknown"
+      },
+      "onlineMeeting": null,
+      "onlineMeetingProvider": null,
+      "createdDateTime": "2026-02-23T08:55:00Z",
+      "lastModifiedDateTime": "2026-02-23T08:55:00Z",
+      "type": "singleInstance",
+      "transactionId": "txn-conflict-1",
+      "categories": [],
+      "reminderMinutesBeforeStart": 15,
+      "isReminderOn": true,
+      "body": {
+        "contentType": "html",
+        "content": "<p>Test meeting overlapping current time</p>"
+      }
+    },
+    {
+      "id": "conflict-now-1",
+      "subject": "Immediate Test Meeting",
+      "bodyPreview": "This meeting conflicts with current time.",
+      "importance": "normal",
+      "sensitivity": "normal",
+      "isAllDay": false,
+      "isCancelled": false,
+      "showAs": "busy",
+      "responseRequested": true,
+      "webLink": "https://outlook.office.com/calendar/item/conflict-now-1",
+      "organizer": {
+        "emailAddress": {
+          "name": "Organizer Demo",
+          "address": "organizer@example.com"
+        }
+      },
+      "attendees": [
+        {
+          "type": "required",
+          "status": {
+            "response": "accepted",
+            "time": "2026-02-23T09:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Attendee One",
+            "address": "attendee1@example.com"
+          }
+        }
+      ],
+      "start": {
+        "dateTime": "2026-02-23T11:00:00",
+        "timeZone": "Africa/Nairobi"
+      },
+      "end": {
+        "dateTime": "2026-02-23T12:00:00",
+        "timeZone": "Africa/Nairobi"
+      },
+      "location": {
+        "displayName": "Room1",
+        "locationType": "default",
+        "uniqueIdType": "unknown"
+      },
+      "onlineMeeting": null,
+      "onlineMeetingProvider": null,
+      "createdDateTime": "2026-02-23T08:55:00Z",
+      "lastModifiedDateTime": "2026-02-23T08:55:00Z",
+      "type": "singleInstance",
+      "transactionId": "txn-conflict-1",
+      "categories": [],
+      "reminderMinutesBeforeStart": 15,
+      "isReminderOn": true,
+      "body": {
+        "contentType": "html",
+        "content": "<p>Test meeting overlapping current time</p>"
+      }
+    }
+   
+  ]
+}
